@@ -1,4 +1,4 @@
-# Trabalho-java-imc
+# Trabalho IMC
 
 ## Integrantes:
 
