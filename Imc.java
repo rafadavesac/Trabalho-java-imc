@@ -10,7 +10,7 @@ void main(){
 
     double imc = peso/(altura*altura);
 
-    String classImc;
+    String classImc = "";
 
     switch (genero){
         case 'M','m' -> {
@@ -26,10 +26,6 @@ void main(){
                 classImc = "Obesidade Mórbida";
             }
 
-            System.out.println("Nome: " + nome);
-            System.out.println("Gênero: " + genero);
-            System.out.println("IMC: " + imc);
-            System.out.println("Classificação: " + classImc);
         } 
         case 'F','f','N','n' -> {
             if (imc < 19){
@@ -44,16 +40,15 @@ void main(){
                 classImc = "Obesidade Mórbida";
             }
 
-            System.out.println("Nome: " + nome);
-            System.out.println("Gênero: " + genero);
-            System.out.println("IMC: " + imc);
-            System.out.println("Classificação: " + classImc);
         }
-
-        
     }
+            IO.println("Nome: " + nome);
+            IO.println("Gênero: " + genero);
+            IO.println("IMC: " + imc);
+            IO.println("Classificação: " + classImc);
 
 
+            
 }
 
 // '' -> char
