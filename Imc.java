@@ -39,6 +39,9 @@ void main(){
                 classImc = "Obesidade Mórbida";
             }
         }
+        default -> {
+    classImc = "Gênero inválido!";
+} 
     }
             IO.println("Nome: " + nome);
             IO.println("Gênero: " + genero);
