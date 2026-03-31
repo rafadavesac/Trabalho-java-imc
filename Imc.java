@@ -40,8 +40,8 @@ void main(){
             }
         }
         default -> {
-    classImc = "Gênero inválido!";
-} 
+            classImc = "Gênero inválido!";
+        } 
     }
             IO.println("Nome: " + nome);
             IO.println("Gênero: " + genero);
