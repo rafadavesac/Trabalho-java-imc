@@ -25,7 +25,6 @@ void main(){
             } else {
                 classImc = "Obesidade Mórbida";
             }
-
         } 
         case 'F','f','N','n' -> {
             if (imc < 19){
@@ -39,12 +38,11 @@ void main(){
             } else {
                 classImc = "Obesidade Mórbida";
             }
-
         }
     }
             IO.println("Nome: " + nome);
             IO.println("Gênero: " + genero);
-            IO.println("IMC: " + imc);
+            IO.println(String.format("IMC: %.2f", imc));
             IO.println("Classificação: " + classImc);
 
 
